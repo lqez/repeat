@@ -1,7 +1,7 @@
 repeat
 ======
 
-Repeat job N times per S seconds.
+Repeat command N times every M seconds.
 
 Usage
 -----
