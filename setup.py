@@ -25,8 +25,8 @@ setup(
     author_email='ez.amiryo' '@' 'gmail.com',
     maintainer='Park, Hyunwoo',
     maintainer_email='ez.amiryo' '@' 'gmail.com',
-    url='',
-    description='Repeat command N times every M seconds',
+    url='http://github.com/lqez/repeat',
+    description='Repeat command N times every S seconds.',
     install_requires=requirements,
     classifiers=classifiers,
     entry_points={
