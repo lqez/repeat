@@ -5,8 +5,11 @@ except ImportError:
     from distutils.core import setup  # NOQA
 import os.path
 
-with open(os.path.join(os.path.dirname(__file__), 'requirements.txt')) as f:
-    requirements = [i for i in f if not i.startswith('#')]
+try:
+    with open(os.path.join(os.path.dirname(__file__), 'requirements.txt')) as f:
+        requirements = [i for i in f if not i.startswith('#')]
+except IOError:
+    requirements = []
 
 classifiers = [
     'Development Status :: 3 - Alpha',
