@@ -3,6 +3,10 @@ repeat
 
 Repeat command N times every S seconds.
 
+Installation
+------------
+    $ pip install -e git://github.com/lqez/repeat.git#egg=repeat
+
 Usage
 -----
 
