@@ -5,7 +5,7 @@ Repeat command N times every S seconds.
 
 Installation
 ------------
-    $ pip install -e git://github.com/lqez/repeat.git#egg=repeat
+    $ pip install repeat
 
 Usage
 -----
@@ -24,4 +24,4 @@ Usage
 
 Disclaimer
 ----------
-You use at your own risk. I did not test carefully.
+Use at your own risk. This was not tested carefully.
