@@ -9,8 +9,13 @@ with open(os.path.join(os.path.dirname(__file__), 'requirements.txt')) as f:
     requirements = [i for i in f if not i.startswith('#')]
 
 classifiers = [
+    'Topic :: Terminals',
+    'Topic :: Utilities',
+    'Environment :: Console',
     'Development Status :: 3 - Alpha',
     'Intended Audience :: Developers',
+    'Intended Audience :: System Administrators',
+    'Programming Language :: Python',
     'Programming Language :: Python :: 2.7',
 ]
 
