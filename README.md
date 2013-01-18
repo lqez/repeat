@@ -24,8 +24,8 @@ Usage
 
 Author
 ------
-Park, Hyunwoo <ez.amiryo at gmail.com>
-Eunchong Yu <kroisse at gmail.com>
+- Park, Hyunwoo \<ez.amiryo at gmail.com\>
+- Eunchong Yu \<kroisse at gmail.com\>
 
 Disclaimer
 ----------
