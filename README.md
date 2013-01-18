@@ -22,6 +22,12 @@ Usage
       -n N        repeat N times. (default=10)
       -s S        repeat every S seconds. (default=1)
 
+Author
+------
+Park, Hyunwoo <ez.amiryo at gmail.com>
+Eunchong Yu <kroisse at gmail.com>
+
 Disclaimer
 ----------
-Use at your own risk. This was not tested carefully.
+Distributed under MIT license.
+And use at your own risk. This was not tested carefully.
