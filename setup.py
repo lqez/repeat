@@ -12,8 +12,13 @@ except IOError:
     requirements = []
 
 classifiers = [
+    'Topic :: Terminals',
+    'Topic :: Utilities',
+    'Environment :: Console',
     'Development Status :: 3 - Alpha',
     'Intended Audience :: Developers',
+    'Intended Audience :: System Administrators',
+    'Programming Language :: Python',
     'Programming Language :: Python :: 2.7',
     'License :: OSI Approved :: MIT License',
 ]
