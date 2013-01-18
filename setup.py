@@ -5,8 +5,11 @@ except ImportError:
     from distutils.core import setup  # NOQA
 import os.path
 
-with open(os.path.join(os.path.dirname(__file__), 'requirements.txt')) as f:
-    requirements = [i for i in f if not i.startswith('#')]
+try:
+    with open(os.path.join(os.path.dirname(__file__), 'requirements.txt')) as f:
+        requirements = [i for i in f if not i.startswith('#')]
+except IOError:
+    requirements = []
 
 classifiers = [
     'Topic :: Terminals',
@@ -27,8 +30,8 @@ setup(
     author_email='ez.amiryo' '@' 'gmail.com',
     maintainer='Park, Hyunwoo',
     maintainer_email='ez.amiryo' '@' 'gmail.com',
-    url='',
-    description='Repeat command N times every M seconds',
+    url='http://github.com/lqez/repeat',
+    description='Repeat command N times every S seconds.',
     install_requires=requirements,
     classifiers=classifiers,
     entry_points={
