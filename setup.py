@@ -20,12 +20,13 @@ classifiers = [
     'Intended Audience :: System Administrators',
     'Programming Language :: Python',
     'Programming Language :: Python :: 2.7',
+    'Programming Language :: Python :: 3.6',
     'License :: OSI Approved :: MIT License',
 ]
 
 setup(
     name='repeat',
-    version='0.1.2',
+    version='0.1.3',
     py_modules=['repeat'],
     author='Park, Hyunwoo',
     author_email='ez.amiryo' '@' 'gmail.com',
