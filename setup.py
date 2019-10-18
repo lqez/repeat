@@ -5,6 +5,9 @@ except ImportError:
     from distutils.core import setup  # NOQA
 import os.path
 
+with open('README.md') as f:
+    README = f.read()
+
 try:
     with open(os.path.join(os.path.dirname(__file__), 'requirements.txt')) as f:
         requirements = [i for i in f if not i.startswith('#')]
@@ -34,6 +37,8 @@ setup(
     maintainer_email='ez.amiryo' '@' 'gmail.com',
     url='http://github.com/lqez/repeat',
     description='Repeat command N times every S seconds.',
+    long_description=README,
+    long_description_content_type='text/markdown',
     install_requires=requirements,
     classifiers=classifiers,
     entry_points={
